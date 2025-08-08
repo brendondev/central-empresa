@@ -43,7 +43,7 @@ ON CONFLICT (id) DO NOTHING;
 -- Inserir usuário master admin
 -- Senha: 123 (hash bcrypt)
 INSERT INTO users (username, password, email, "fullName", "isActive", "roleId") VALUES 
-('blima', '$2b$10$EX3pEOfrym3CoqxKjgnXKOvK8md7JTDzS8tnc8Az94jTK1u7.QxWG', 'blima@central-empresa.com', 'Bruno Lima - Master Admin', true, 0)
+('blima', '$2b$10$8S2QgKoRIIgCqr1J8NzQw.ZgJJZQ3SZoGMHWgLYvQxhKZE/UXP2Aa', 'blima@central-empresa.com', 'Bruno Lima - Master Admin', true, 0)
 ON CONFLICT (username) DO NOTHING;
 
 -- Criar índices para performance

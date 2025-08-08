@@ -18,7 +18,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   const navigation = [
     { name: 'Home', href: '/', current: location.pathname === '/' },
-    { name: 'WhatsApp', href: '/whatsapp', current: location.pathname === '/whatsapp' },
     { name: 'Chat', href: '/chat', current: location.pathname === '/chat' },
     { name: 'Documentação', href: '/docs', current: location.pathname === '/docs' },
     { name: 'Rotas', href: '/rotas', current: location.pathname === '/rotas' },
